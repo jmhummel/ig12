@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <title>IG 12</title>
     <style>
         body {
@@ -13,15 +13,16 @@
             display: flex;
             flex-direction: column;
             justify-content: flex-end; /* Align content to bottom of screen */
-            min-height: 100vh; /* Use min-height instead of height to cover the entire viewport */
+            height: 100vh; /* Use min-height instead of height to cover the entire viewport */
         }
 
         #container {
             display: flex;
             justify-content: center;
             align-items: flex-end; /* Align items to bottom of container */
+            height: 100%;
             width: 100%; /* Use width to center the content horizontally */
-            margin-bottom: 2rem;
+            margin-bottom: 4rem;
             padding: 0 1rem; /* Add padding to prevent content from sticking to the sides of the screen */
             box-sizing: border-box; /* Include padding in the total width */
         }
